@@ -1,0 +1,32 @@
+.navBar {
+  padding: 25px 25px 20px 20px;
+  height: 40px;
+  background-color: #009cde;
+  border-bottom: 1px solid #888b8d;
+  color: white;
+}
+
+.navInput {
+  margin-left: 25px;
+  height: 40px;
+  width: 30vw;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.navButton {
+  margin-left: 10px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #3f9c35;
+  background-color: #3f9c35;
+  color: white;
+}
+
+.navButton:hover {
+  background-color: white;
+  color: #3f9c35;
+  cursor: pointer;
+}

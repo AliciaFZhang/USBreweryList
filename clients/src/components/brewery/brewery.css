@@ -1,0 +1,70 @@
+.brewContainer {
+  height: 180px;
+  width: 750px;
+  margin: 15px 20px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 2px solid #888b8d;
+  border-radius: 5px;
+  color: #515356;
+
+}
+.brewNT {
+  display: flex;
+  padding: 20px;
+}
+.brewName {
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+.brewClosed {
+  height: 20px;
+  margin: 5px 0px 0px 10px;
+  border-radius: 10px;
+  background-color: rgb(243, 136, 136);
+  padding: 0px 5px;
+  color: white;
+}
+.brewPlanning {
+  height: 20px;
+  margin: 5px 0px 0px 10px;
+  border-radius: 10px;
+  background-color: rgb(225, 204, 9);
+  padding: 0px 5px;
+  color: white;
+}
+.brewType {
+  height: 20px;
+  margin: 5px 0px 0px 10px;
+  border-radius: 10px;
+  background-color: #3f9c35;
+  padding: 0px 5px;
+  color: white;
+}
+.brewAddress {
+  margin: 10px 20px;
+}
+.brewWPD {
+  display: flex;
+  color: #009cde;
+  font-size: 20px;
+}
+.brewWebsite {
+  margin: 10px 20px;
+  cursor: pointer;
+  display: flex;
+}
+.brewPhone {
+  margin: 10px 20px;
+  display: flex;
+}
+.brewDetails {
+  margin: 10px 20px;
+  cursor: pointer;
+  display: flex;
+}
+.brewIcon {
+  margin-right: 5px;
+}

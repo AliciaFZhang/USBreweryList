@@ -1,0 +1,95 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  color: #515356;
+}
+.detailsBar {
+  background-color: #009cde;
+  color: white;
+  padding-left: 20px;
+  display: flex;
+  height: 80px;
+}
+.detailsTitle {
+  width: 80vw;
+}
+.detailsName {
+  padding-top: 10px;
+  display: flex;
+  font-size: 30px;
+}
+.detailsNearMe {
+  margin-left: 20px;
+}
+.detailsNearMe:hover {
+  cursor: pointer;
+}
+#detailsNearMe {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.detailsBarButton {
+  width: 20vw;
+}
+.detailsBarButton >button {
+  margin-top: 20px;
+  margin-right: 5vw;
+  float: right;
+  height: 30px;
+  width: 50px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color:#3f9c35;
+}
+.detailsBarButton >button:hover {
+  color: #3f9c35;
+  background-color: white;
+}
+#dir, #cancel {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 45
+}
+
+.detailsNav {
+  display: flex;
+  flex-direction: column;
+}
+.detailsNavTop {
+  display: flex;
+}
+.detailsNavTop >input {
+  margin: 5px 5px;
+  height: 20px;
+  width: 300px;
+}
+.detailsNavTop >label {
+  margin-top: 10px;
+}
+.detailsAddress {
+  font-size: 15px;
+}
+.detailsNavTop >button {
+  background-color: white;
+  color:#3f9c35;
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
+}
+.detailsNavDis, .detailsNavDur {
+  width: 15vw;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.detailsGoogleMap {
+  height: 100vh;
+  width: 100vw;
+}

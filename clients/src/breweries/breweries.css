@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.mainContainer {
+  display: flex;
+
+}
+
+.breweriesList {
+  height: 100vh;
+  width: 800px;
+  overflow: scroll;
+  margin: 10px 5px;
+}
+
+.googleMap {
+  padding: 20px 5px;
+}
