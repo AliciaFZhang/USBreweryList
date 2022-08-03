@@ -9,6 +9,8 @@ This project utilizes the data from Open Brewery DB to display the information o
 
 **_npm start_**: start the front end and back end of this project under the clients and server folder.
 
+The .env file in clients folder should includes a variable REACT_APP_GOOGLE_TOKEN holding the google map API key and the .env file in server folder saves the BreweryURL, which is https://api.openbrewerydb.org/breweries.
+
 ## Components
 
 **Main Page**
