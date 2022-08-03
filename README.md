@@ -3,7 +3,14 @@
 ## Introduction
 This project utilizes the data from Open Brewery DB to display the information of a list of US breweries. This one-page application provides a search brewery by city feature and a click to check detail page function.
 
-## Main Page
+## How to start
+
+**_npm install_**: install necessary dependencies for this project under the clients and server folder.
+**_npm start_**: start the front end and back end of this project under the clients and server folder.
+
+## Components
+
+**Main Page
 
 The left portion of the main page renders a list of breweries by default based on the user's current location. 
 
@@ -16,7 +23,7 @@ The right portion of the main mage renders a google map, where the red markers r
 <img width="1513" alt="Screen Shot 2022-08-02 at 21 13 20" src="https://user-images.githubusercontent.com/26387488/182524779-5564b863-0570-4d9a-a6c1-d1f0d32f8eec.png">
 
 
-## Detail Page
+**Detail Page
 
 The top navigation bar of the detail page renders the name and location of the brewery. 
 
